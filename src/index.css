@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+}
+.bookList {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+flex-wrap: wrap;
+}
+
+.book{
+    background-color: #9681EB;
+    width:300vw;
+    max-width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    margin: 10px;
+}
+.bookname{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.author{
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: rgb(247, 240, 240);
+    padding-bottom: 5px;
+}
+.img {
+    width: 200px;
+    height: 250px;
+}
+
+
+.btn{
+    width:80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin: 0 auto;
+    cursor: pointer;
+  
+}
